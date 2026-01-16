@@ -11,7 +11,7 @@
 
 import React, { useCallback } from 'react';
 import PropTypes from 'prop-types';
-import { safeParseFloat, clamp } from './utils';
+import { safeParseFloat, clamp } from '../utils/utils';
 
 /**
  * Controlled number input with label, prefix/suffix, and validation

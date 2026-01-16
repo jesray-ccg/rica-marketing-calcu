@@ -5,7 +5,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import CrewCutMarketingCalculator from './CrewCutMarketingCalculator';
+import CrewCutMarketingCalculator from './components/CrewCutMarketingCalculator';
 import './index.css'; // ← CSS imported here (recommended for Vite)
 
 /**

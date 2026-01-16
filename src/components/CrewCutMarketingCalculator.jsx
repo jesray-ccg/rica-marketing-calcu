@@ -22,9 +22,9 @@
 import React, { useState, useCallback } from 'react';
 import { Calculator, TrendingUp, DollarSign, Target, Users, Building } from 'lucide-react';
 import InputGroup from './InputGroup';
-import { useMarketingCalculations } from './useMarketingCalculations';
-import { formatCurrency, formatNumber, formatPercentage } from './utils';
-import { BUSINESS_CONSTANTS, UI_TEXT } from './constants';
+import { useMarketingCalculations } from '../hooks/useMarketingCalculations';
+import { formatCurrency, formatNumber, formatPercentage } from '../utils/utils';
+import { BUSINESS_CONSTANTS, UI_TEXT } from '../utils/constants';
 
 /**
  * Main calculator component orchestrating all sub-components and business logic

@@ -8,7 +8,7 @@
  */
 
 import { useMemo } from 'react';
-import { BUSINESS_CONSTANTS } from './constants';
+import { BUSINESS_CONSTANTS } from '../utils/constants';
 
 /**
  * Performs all marketing budget calculations with comprehensive ROI analysis
